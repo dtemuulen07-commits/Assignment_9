@@ -1,4 +1,3 @@
-cat > main.py <<'PY'
 from typing import List
 import json
 
@@ -49,4 +48,3 @@ if __name__ == "__main__":
     )
 
     write_file_list(processed_file_list, path + 'concated.json')
-PY
